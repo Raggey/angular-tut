@@ -23,5 +23,7 @@
     },
     "eslint.validate": [
         "typescript"
-    ]
+    ],
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.snippetSuggestions": "top"
 }
