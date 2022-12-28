@@ -15,4 +15,8 @@ export class HeaderComponent implements OnInit {
 
   }
 
+  toggleAddTask() {
+    console.log("toggle");
+  }
+
 }
