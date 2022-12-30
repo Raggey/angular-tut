@@ -34,3 +34,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - HTML CSS Support
 - Prettier
 - Autorename Tag
+
+## TODO:
+
+- Side bar with selector images
+- REST API for TLEs - store historic versions - maybe pull this from celestrak
+- visulaise TLEs using sat.js
+- unit tests on github
+- OS repo
+- docker compose for FE and BE, psql database with express
+-

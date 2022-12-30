@@ -13,10 +13,20 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { LaunchComponent } from './components/launch/launch.component';
+import { SatelliteComponent } from './components/satellite/satellite.component';
+import { FactoryComponent } from './components/factory/factory.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'launch', component: LaunchComponent },
+  { path: 'satellite', component: SatelliteComponent },
+  { path: 'factory', component: FactoryComponent },
 ];
 
 @NgModule({
@@ -29,6 +39,10 @@ const appRoutes: Routes = [
     AddTaskComponent,
     AboutComponent,
     FooterComponent,
+    SidebarComponent,
+    LaunchComponent,
+    SatelliteComponent,
+    FactoryComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +50,9 @@ const appRoutes: Routes = [
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true }),
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

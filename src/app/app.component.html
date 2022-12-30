@@ -1,5 +1,40 @@
-<div class="container">
-  <app-header></app-header>
-  <router-outlet></router-outlet>
-  <app-footer></app-footer>
-</div>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" opened="">
+    <mat-icon
+      class="icon"
+      aria-hidden="false"
+      aria-label="home icon"
+      fontIcon="home"
+      routerLink="/"
+    ></mat-icon>
+    <mat-icon
+      class="icon"
+      aria-hidden="false"
+      aria-label="sat icon"
+      fontIcon="rocket_launch"
+      routerLink="/launch"
+    ></mat-icon>
+    <mat-icon
+      class="icon"
+      aria-hidden="false"
+      aria-label="sat icon"
+      fontIcon="satellite_alt"
+      routerLink="/satellite"
+    ></mat-icon>
+    <mat-icon
+      class="icon"
+      aria-hidden="false"
+      aria-label="sat icon"
+      fontIcon="warehouse"
+      routerLink="/factory"
+    ></mat-icon>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <div class="container">
+      <app-header></app-header>
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
