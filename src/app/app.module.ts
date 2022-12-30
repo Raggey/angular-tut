@@ -20,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { LaunchComponent } from './components/launch/launch.component';
 import { SatelliteComponent } from './components/satellite/satellite.component';
 import { FactoryComponent } from './components/factory/factory.component';
+import { NgChartsModule } from 'ng2-charts';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
@@ -53,6 +54,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     MatSidenavModule,
     MatIconModule,
+    NgChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
