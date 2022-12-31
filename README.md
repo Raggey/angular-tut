@@ -34,6 +34,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - HTML CSS Support
 - Prettier
 - Autorename Tag
+- prisma
 
 ## TODO:
 
