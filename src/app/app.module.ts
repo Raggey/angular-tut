@@ -45,6 +45,7 @@ const appRoutes: Routes = [
     SatelliteComponent,
     FactoryComponent,
   ],
+  exports: [MatSidenavModule, ButtonComponent],
   imports: [
     BrowserModule,
     FontAwesomeModule,
