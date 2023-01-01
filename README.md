@@ -2,15 +2,13 @@
 
 Full stack angular project as a learning tool
 
-## VSCode Extensions:
+# Running in dev mode:
 
-- Angular Language Service
-- Angular Snippets
-- ESLint
-- HTML CSS Support
-- Prettier
-- Autorename Tag
-- prisma
+- TODO
+
+# Building for prod:
+
+- TODO
 
 ## TODO:
 
@@ -30,3 +28,13 @@ DevOps:
 
 - docker compose for FE and BE, database
 - unit tests on github
+
+## Recomended VSCode Extensions:
+
+- Angular Language Service
+- Angular Snippets
+- ESLint
+- HTML CSS Support
+- Prettier
+- Autorename Tag
+- prisma
